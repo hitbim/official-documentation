@@ -1,0 +1,2996 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM - Hitbim SDK Documentation</title>
+
+    <meta name="description" content="Hitbim SDK Documentation" />
+
+    <meta name="keywords" content="Hitbim SDK" />
+    <meta name="keyword" content="Hitbim SDK" />
+
+    <meta property="og:title" content="Hitbim SDK Documentation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/logo.png" />
+    <meta property="og:site_name" content="Hitbim" />
+    <meta property="og:url" content="/index.html" />
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css" />
+    <script src="scripts/nav.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger" class="navicon-button x">
+      <div class="navicon"></div>
+    </label>
+
+    <label for="nav-trigger" class="overlay"></label>
+
+    <nav>
+      <input type="text" id="nav-search" placeholder="Search" />
+
+      <h2><a href="index.html">Home</a></h2>
+      <h2>
+        <a
+          href="https://developer.hitbim.com"
+          target="_blank"
+          class="menu-item"
+          id="hitbim_link"
+          >Hitbim</a
+        >
+      </h2>
+      <h3>Global</h3>
+      <ul>
+        <li><a href="global.html#BIMSDK">BIMSDK</a></li>
+      </ul>
+      <h3>Namespaces</h3>
+      <ul>
+        <li>
+          <a href="bim.html">bim</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.event">event</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.querySelector">querySelector</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.readFile">readFile</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="DOM.html">DOM</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.is">is</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.find">find</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.filter">filter</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.append">append</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.last">last</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.eq">eq</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.index">index</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.forEach">forEach</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.parent">parent</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.parents">parents</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.closest">closest</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.addClass">addClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.removeClass">removeClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.hasClass">hasClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.attr">attr</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.removeAttr">removeAttr</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.prop">prop</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.val">val</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.remove">remove</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.empty">empty</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.on">on</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.off">off</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.text">text</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.app.html">bim.app</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.html#.listeners">listeners</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.html#.close">close</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.formData">formData</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.checkAppVersion">checkAppVersion</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.checkAppVersionCallback"
+                >checkAppVersionCallback</a
+              >
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.onGoBack">onGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.scrollTop">scrollTop</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.init">init</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.session">session</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.getAppId">getAppId</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.setAppId">setAppId</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.page">page</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.listener">listener</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.navigation">navigation</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.element">element</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.template">template</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.appendHTML">appendHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.isHTML">isHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.translate">translate</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.data.html">bim.app.data</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.bundle">bundle</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.set">set</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.get">get</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.deleteItem">deleteItem</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.data.db.html">bim.app.data.db</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.data.db.html#.version">version</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addTable">addTable</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.delete">delete</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.create">create</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addItem">addItem</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addFile">addFile</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.read">read</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.deleteFile">deleteFile</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.deleteItem">deleteItem</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.user.html">bim.app.user</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.user.html#._uid">_uid</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.user.html#.token">token</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.name">name</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.uid">uid</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.loggedIn">loggedIn</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.register">register</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.logout">logout</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.logicless.html">bim.app.logicless</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.logicless.html#.htmlTemplate">htmlTemplate</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.logicless.html#.lang">lang</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.logicless.html#.tokenizer">tokenizer</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.logicless.html#.compiler">compiler</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.storyboard.html">bim.app.storyboard</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.containsStack">containsStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.getStack">getStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setStack">setStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setCurrent">setCurrent</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.current">current</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.next">next</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setPrevious">setPrevious</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.previous">previous</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.moveTo">moveTo</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setGoBack">setGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.resetGoBack">resetGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.goBack">goBack</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.plugin.html">bim.plugin</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.name">name</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.token">token</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.id">id</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.path">path</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onCreate">onCreate</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onResume">onResume</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onDestroy">onDestroy</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.config.html">bim.config</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.config.html#.plugins_installed">plugins_installed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.native.html">bim.native</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.device">device</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.backButton">backButton</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.keyboard">keyboard</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.handleCallbacks">handleCallbacks</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.fileSystem">fileSystem</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.removeHistory">removeHistory</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.internalBrowser">internalBrowser</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.shareUrl">shareUrl</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.loadService">loadService</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.exec">exec</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.cameraChooser">cameraChooser</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.plugin">plugin</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.load">load</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.call">call</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.handleCallback">handleCallback</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.callback">callback</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.component.html">bim.component</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.hide">hide</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.show">show</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.active">active</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.set">set</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.build">build</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.crawling.html">bim.crawling</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.crawling.html#.inject">inject</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.functions.html">bim.functions</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.isHTML">isHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.parse">parse</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.text">text</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.unique">unique</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="main">
+      <h1 class="page-title">DOM</h1>
+
+      <section>
+        <header>
+          <h2>Namespace</h2>
+        </header>
+
+        <article>
+          <div class="container-overview">
+            <h4 class="name" id="DOM">DOM</h4>
+
+            <dl class="details">
+              <dt class="tag-description">Description:</dt>
+              <dd class="tag-description">
+                <ul class="dummy">
+                  <li>
+                    <p>
+                      By importing <a href="global.html#BIMSDK">BIMSDK</a>,
+                      functions are added to DOM Element.
+                    </p>
+                    <p>
+                      Use function
+                      <a href="bim.app.html#.element">bim.app.element</a> to get
+                      DOM Element Object.
+                    </p>
+                    <p>Below methods can be called with DOM Element.</p>
+                    <br />
+                  </li>
+                </ul>
+              </dd>
+
+              <dt class="tag-source">Source:</dt>
+              <dd class="tag-source">
+                <ul class="dummy">
+                  <li>
+                    <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                    <a href="bim.sdk.js.html#line292">line 292</a>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <h5 class="subsection-title">Properties:</h5>
+
+            <table class="props">
+              <thead>
+                <tr>
+                  <th>Name</th>
+
+                  <th>Type</th>
+
+                  <th class="last">Description</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="name"><code>is</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to check whether the element corresponds to the
+                      selector or not. See <a href="DOM.html#.is">DOM.is</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>find</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to find Objects from the element with the
+                      selector. See <a href="DOM.html#.find">DOM.find</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>filter</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to filter the element through a function given as
+                      a parameter. See
+                      <a href="DOM.html#.filter">DOM.filter</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>append</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to append array in arguments to the element. See
+                      <a href="DOM.html#.append">DOM.append</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>last</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function that returns the last element of the array. See
+                      <a href="DOM.html#.last">DOM.last</a> for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>eq</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function that returns the element corresponding to the
+                      location of the array. See
+                      <a href="DOM.html#.eq">DOM.eq</a> for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>index</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function that returns the index number of the element from
+                      the array. See <a href="DOM.html#.index">DOM.index</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>forEach</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to run the given callback function for each
+                      element. See
+                      <a href="DOM.html#.forEach">DOM.forEach</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>parent</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get the ancestor of each element matched to
+                      the selector. See
+                      <a href="DOM.html#.parent">DOM.parent</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>parents</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get all the ancestors of each element matched
+                      to the selector. See
+                      <a href="DOM.html#.parents">DOM.parents</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>closest</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get the closest DOM object from parent node
+                      and itself. See
+                      <a href="DOM.html#.closest">DOM.closest</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>addClass</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to add classes to current element. See
+                      <a href="DOM.html#.addClass">DOM.addClass</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>removeClass</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove classes from current element. See
+                      <a href="DOM.html#.removeClass">DOM.removeClass</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>hasClass</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to check whether current element has specific
+                      class. See
+                      <a href="DOM.html#.hasClass">DOM.hasClass</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>attr</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get or set the value of attribute of the
+                      element. See <a href="DOM.html#.attr">DOM.attr</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>removeAttr</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove the given attribute from the element.
+                      See <a href="DOM.html#.removeAttr">DOM.removeAttr</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>prop</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get or set the value of the given property of
+                      the element. See <a href="DOM.html#.prop">DOM.prop</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>val</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get or set the value of the element. See
+                      <a href="DOM.html#.val">DOM.val</a> for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>remove</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove the current element from parentNode.
+                      See <a href="DOM.html#.remove">DOM.remove</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>empty</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove all the childNodes from the current
+                      element. See <a href="DOM.html#.empty">DOM.empty</a> for
+                      more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>on</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to bind eventListener and handleEvent to the
+                      element. See <a href="DOM.html#.on">DOM.on</a> for more
+                      details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>off</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove binded eventListener from the elemnet.
+                      See <a href="DOM.html#.off">DOM.off</a> for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>text</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to get or set the text value of the element. See
+                      <a href="DOM.html#.text">DOM.text</a> for more details.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="subsection-title">Methods</h3>
+
+          <h4 class="name" id=".is">
+            <span class="type-signature type-signature-static">(static) </span
+            >is<span class="signature">(selector)</span
+            ><span class="type-signature"> &rarr; {boolean}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to check whether the element corresponds to the
+                    selector or not.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line396">line 396</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>if (bim.app.element(${1:selector}).is(${2:selector})) {
+ // Do something ...
+}</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>if (bim.app.element("#bimId").is(".bimClass")) {
+ // Do something ...
+}</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>selector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type"><a href="DOM.html">DOM</a></span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    The selector to compare elements. Should be in
+                    <code>string</code> or <code>DOM</code> Object types.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Whether the element matches the selector.</p>
+            <p><code>true</code> | <code>false</code></p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">boolean</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".find">
+            <span class="type-signature type-signature-static">(static) </span
+            >find<span class="signature">(selector)</span
+            ><span class="type-signature"> &rarr; {Array}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to find all Objects with the selector from the
+                    element
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line456">line 456</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).find(${2:selector});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let foundElements = bim.app.element("bim").find("div");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>selector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type">Object</span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    The selector which would be used in the query. Should be in
+                    <code>string</code> or <code>DOM</code> Object types.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Found Objects in <code>Array</code> type.</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">Array</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".filter">
+            <span class="type-signature type-signature-static">(static) </span
+            >filter<span class="signature">(callback)</span
+            ><span class="type-signature">
+              &rarr; {Array.&lt;<a href="DOM.html">DOM</a>>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to filter the element through the given function
+                    which is handed over as a parameter.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line485">line 485</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).filter(${2:function});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let filteredElements = bim.app.element(".bimElements").filter(function (obj) {
+ // Return {boolean} ..
+ return obj.is(".bimClass");
+});</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>callback</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="description last">
+                  <p>Filter function ({DOM}, {number}, {DOM})</p>
+                  <p>returns {boolean}</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Filtered Objects in <code>Array</code> type.</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"
+                >Array.&lt;<a href="DOM.html">DOM</a>></span
+              >
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".append">
+            <span class="type-signature type-signature-static">(static) </span
+            >append<span class="signature">(args)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>Function to append array in arguments to the element.</p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line515">line 515</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).append(${2:array});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("bim").append("&lt;div>Hello Bim&lt;/div>");</code></pre>
+
+          <pre class="prettyprint"><code>const p = document.createElement("p");
+bim.app.element("body").append(p);</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>args</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array</span>
+                </td>
+
+                <td class="description last">
+                  <p>list of objects expected to be appended to the element</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".last">
+            <span class="type-signature type-signature-static">(static) </span
+            >last<span class="signature">()</span
+            ><span class="type-signature">
+              &rarr; {boolean|<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>Function that returns the last element of the array.</p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line557">line 557</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).last();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("div").last();</code></pre>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>
+              <code>false</code> if the element is undefined or its length
+              equals to 0 | <code>DOM</code> Object at the last of the given
+              Array.
+            </p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">boolean</span>
+              |
+
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".eq">
+            <span class="type-signature type-signature-static">(static) </span
+            >eq<span class="signature">(index)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function that returns the element corresponding to the
+                    location of the array.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line577">line 577</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).eq(${2:index});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let listItem = bim.app.element("li").eq(3);</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>index</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    A number for where Object in Array is located. Should be a
+                    positive, or negative Integer.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p><code>DOM</code> Object located in the array at the index.</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".index">
+            <span class="type-signature type-signature-static">(static) </span
+            >index<span class="signature">()</span
+            ><span class="type-signature"> &rarr; {number}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function that returns the index number of the element from
+                    the array
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line612">line 612</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).index();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("li.bimClass").index();</code></pre>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>The index of the element from the array.</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">number</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".forEach">
+            <span class="type-signature type-signature-static">(static) </span
+            >forEach<span class="signature">(callback)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to run the given callback function for each
+                    element. If callback function returns <code>false</code>,
+                    terminates the loop early.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line638">line 638</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).forEach(${2:callback});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("li").forEach(function (item, item2, index) {
+ // Do Something ...
+ console.log("li : ", item);
+});</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>callback</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="description last">
+                  <p>currentvalue, currentvalue, index as params</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".parent">
+            <span class="type-signature type-signature-static">(static) </span
+            >parent<span class="signature"
+              >(selector<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to get the ancestor of each element in the current
+                    set of elements matched to the selector.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line671">line 671</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).parent();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).parent(${2:selector});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let bimElement = bim.app.element("li").parent("ul");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>selector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type"><a href="DOM.html">DOM</a></span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last">
+                  <p>
+                    <b><i>Optional.</i></b>
+                    A string containing a selector expression to match elements
+                    against. |
+                    <code>DOM</code> Object to compare with.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>element</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".parents">
+            <span class="type-signature type-signature-static">(static) </span
+            >parents<span class="signature"
+              >(selector<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to get all the ancestors of each element in the
+                    current set of matched elements matched to the selector.
+                    Similar to
+                    <code><a href="DOM.html#.parent">DOM.parent</a></code
+                    >, except this travels multiple level up the
+                    <code>DOM</code> tree.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line708">line 708</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).parents();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).parents(${2:selector});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let bimElements = bim.app.element("li").parents("ul");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>selector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type"><a href="DOM.html">DOM</a></span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last">
+                  <p>
+                    <b><i>Optional.</i></b>
+                    A string containing a selector expression to match elements
+                    against. |
+                    <code>DOM</code> Object to compare with.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Matched parent <code>DOM</code> Element.</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".closest">
+            <span class="type-signature type-signature-static">(static) </span
+            >closest<span class="signature">(selector)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to get the closest DOM object from parent node and
+                    itself. Traverses the element and its parents until it finds
+                    a node. If the element is undefined, returns new DOM.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line749">line 749</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).closest(${2:selector});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let closeElement = bim.app.element("li.bimList").closest("ul");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>selector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type"><a href="DOM.html">DOM</a></span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    <b><i>Required.</i></b>
+                    Valid selector to match the element. |
+                    <code>DOM</code> Object to compare with.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>
+              New <code>DOM</code> Object if selector is undefined, else closest
+              parent <code>DOM</code> Object.
+            </p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".addClass">
+            <span class="type-signature type-signature-static">(static) </span
+            >addClass<span class="signature">(className)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to add classes to current element. Multiple classes
+                    can be added at the same time seperated by
+                    &quot;space&quot;.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line779">line 779</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).addClass(${2:className});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("div").addClass("className1 className2 className3");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>className</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last"><p>Class name</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".removeClass">
+            <span class="type-signature type-signature-static">(static) </span
+            >removeClass<span class="signature">(className)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to remove classes from current element. Multiple
+                    classes can be removed at the same time seperated by
+                    &quot;space&quot;.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line811">line 811</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).removeClass(${2:className});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("div").removeClass("className1 className2 className3");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>className</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last"><p>Class name</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".hasClass">
+            <span class="type-signature type-signature-static">(static) </span
+            >hasClass<span class="signature">(className)</span
+            ><span class="type-signature"> &rarr; {boolean}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to check whether current element has specific class
+                    given as parameter.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line840">line 840</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).hasClass(${2:className});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>if (bim.app.element("div").hasClass("className1")) {
+ // Do something ...
+}</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>className</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last"><p>Class name</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Whether the element has the class or not.</p>
+            <p><code>true</code> | <code>false</code></p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">boolean</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".attr">
+            <span class="type-signature type-signature-static">(static) </span
+            >attr<span class="signature"
+              >(attrs, value<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {string|<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to get or set the value of attribute of the
+                    element.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line865">line 865</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre class="prettyprint"><code>// Gets current element's attr
+bim.app.element(${1:selector}).attr(${2:attrName});</code></pre>
+
+          <pre class="prettyprint"><code>// Sets value to current element's attr
+bim.app.element(${1:selector}).attr(${2:attrName}, ${3:value});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>// Sets values of the given attributes to the element
+bim.app.element(${1:selector}).attr({
+ ${2:attrName} : ${3:value},
+ ${4:attrName} : ${5:value}
+// ...
+});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let inputTitle = bim.app.element("input").attr("title");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>attrs</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>value</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last"></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Value of attribute when 1 argument, else Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">string</span>
+              |
+
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".removeAttr">
+            <span class="type-signature type-signature-static">(static) </span
+            >removeAttr<span class="signature">(attr)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to remove the given attribute from the element.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line918">line 918</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).removeAttr(${2:attr});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("input").removeAttr("title");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>attr</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last">
+                  <p>Attribute expected to be removed</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".prop">
+            <span class="type-signature type-signature-static">(static) </span
+            >prop<span class="signature"
+              >(props, value<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {string|<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to get or set the value of the given property of
+                    the element.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line940">line 940</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>// Get the value of the given property from the element
+bim.app.element(${1:selector}).prop(${2:propName});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>// Set the value of the given property to the element
+bim.app.element(${1:selector}).prop(${2:propName}, ${3:value});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>// Set the values of the given properties to the element
+bim.app.element(${1:selector}).prop({
+ ${2:propName} : ${3:value},
+ ${4:propName} : ${5:value}
+// ...
+});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let checked = bim.app.element(".checkBox").prop("checked");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>props</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                  |
+
+                  <span class="param-type">Object</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="description last"><p>Property name</p></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>value</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last">
+                  <p>String value for property</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>value of the property of the element | self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">string</span>
+              |
+
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".val">
+            <span class="type-signature type-signature-static">(static) </span
+            >val<span class="signature"
+              >(value<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {string|Array.&lt;string>|<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li><p>Function to get or set the value of the element.</p></li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line992">line 992</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre class="prettyprint"><code>// Get the value of the element
+bim.app.element(${1:selector}).val();</code></pre>
+
+          <pre class="prettyprint"><code>// Set the value of the element
+bim.app.element(${1:selector}).val(${2:value});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("input").val("Hello Bim~");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>value</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last"><p>Value to assign</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Value of the element | Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">string</span>
+              |
+
+              <span class="param-type">Array.&lt;string></span>
+              |
+
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".remove">
+            <span class="type-signature type-signature-static">(static) </span
+            >remove<span class="signature">()</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>Function to remove the current element from parentNode.</p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line1036">line 1036</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).remove();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("li").remove();</code></pre>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self | parentNode</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".empty">
+            <span class="type-signature type-signature-static">(static) </span
+            >empty<span class="signature">()</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to remove all the childNodes from the current
+                    element.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line1058">line 1058</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element(${1:selector}).empty();</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.element("ul").empty();</code></pre>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".on">
+            <span class="type-signature type-signature-static">(static) </span
+            >on<span class="signature"
+              >(eventType, targetSelector<span class="signature-attributes"
+                >opt</span
+              >, listener, capture<span class="signature-attributes">opt</span
+              >)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to bind eventListener and handleEvent to the
+                    element.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line1086">line 1086</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre class="prettyprint"><code>// with 2 arguments
+bim.app.element(${1:selector}).on(${2:eventType}, ${3:listener});</code></pre>
+
+          <pre class="prettyprint"><code>// with 3 arguments
+bim.app.element(${1:selector}).on(${2:eventType}, ${3:targetSelector}, ${4:listener});</code></pre>
+
+          <pre class="prettyprint"><code>// with 4 arguments
+bim.app.element(${1:selector}).on(${2:eventType}, ${3:targetSelector}, ${4:listener}, ${5:capture});</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th>Default</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>eventType</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>targetSelector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>listener</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>capture</code></td>
+
+                <td class="type">
+                  <span class="param-type">boolean</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">
+                  <code>false</code>
+                </td>
+
+                <td class="description last"><p>true | false</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".off">
+            <span class="type-signature type-signature-static">(static) </span
+            >off<span class="signature"
+              >(eventType, targetSelector, listener, capture<span
+                class="signature-attributes"
+                >opt</span
+              >)</span
+            ><span class="type-signature">
+              &rarr; {<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to remove binded eventListener from the elemnet.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line1188">line 1188</a>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-todo">To Do:</dt>
+            <dd class="tag-todo">
+              <ul>
+                <li>Check the stability</li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre class="prettyprint"><code>// with 2 arguments
+bim.app.element(${1:selector}).off(${2:eventType}, ${3:listener});</code></pre>
+
+          <pre class="prettyprint"><code>// with 3 arguments
+bim.app.element(${1:selector}).off(${2:eventType}, ${3:targetSelector}, ${4:listener});</code></pre>
+
+          <pre class="prettyprint"><code>// with 4 arguments
+bim.app.element(${1:selector}).off(${2:eventType}, ${3:targetSelector}, ${4:listener}, ${5:capture});</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th>Default</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>eventType</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>targetSelector</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>listener</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="attributes"></td>
+
+                <td class="default"></td>
+
+                <td class="description last"></td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>capture</code></td>
+
+                <td class="type">
+                  <span class="param-type">boolean</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">
+                  <code>false</code>
+                </td>
+
+                <td class="description last"><p>true | false</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".text">
+            <span class="type-signature type-signature-static">(static) </span
+            >text<span class="signature"
+              >(text$1<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature">
+              &rarr; {string|<a href="DOM.html">DOM</a>}</span
+            >
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>Function to get or set the text value of the element.</p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line1276">line 1276</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre class="prettyprint"><code>// Get text value of the element
+bim.app.element(${1:selector}).text();</code></pre>
+
+          <pre class="prettyprint"><code>// Set text value to the element
+bim.app.element(${1:selector}).text(${2:text});</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.app.elemnt("h1").text("Hello Bim~");</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>text$1</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="description last"><p>Text value to assign</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>Text value | self</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">string</span>
+              |
+
+              <span class="param-type"><a href="DOM.html">DOM</a></span>
+            </dd>
+          </dl>
+        </article>
+      </section>
+    </div>
+
+    <br class="clear" />
+
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/polyfill.js"></script>
+    <script src="scripts/linenumber.js"></script>
+
+    <script src="scripts/search.js" defer></script>
+
+    <script src="scripts/collapse.js" defer></script>
+  </body>
+</html>

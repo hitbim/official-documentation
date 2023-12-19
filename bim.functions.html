@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>functions - Hitbim SDK Documentation</title>
+
+    <meta name="description" content="Hitbim SDK Documentation" />
+
+    <meta name="keywords" content="Hitbim SDK" />
+    <meta name="keyword" content="Hitbim SDK" />
+
+    <meta property="og:title" content="Hitbim SDK Documentation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/logo.png" />
+    <meta property="og:site_name" content="Hitbim" />
+    <meta property="og:url" content="/index.html" />
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css" />
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css" />
+    <script src="scripts/nav.js" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger" class="navicon-button x">
+      <div class="navicon"></div>
+    </label>
+
+    <label for="nav-trigger" class="overlay"></label>
+
+    <nav>
+      <input type="text" id="nav-search" placeholder="Search" />
+
+      <h2><a href="index.html">Home</a></h2>
+      <h2>
+        <a
+          href="https://developer.hitbim.com"
+          target="_blank"
+          class="menu-item"
+          id="hitbim_link"
+          >Hitbim</a
+        >
+      </h2>
+      <h3>Global</h3>
+      <ul>
+        <li><a href="global.html#BIMSDK">BIMSDK</a></li>
+      </ul>
+      <h3>Namespaces</h3>
+      <ul>
+        <li>
+          <a href="bim.html">bim</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.event">event</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.querySelector">querySelector</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.html#.readFile">readFile</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="DOM.html">DOM</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.is">is</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.find">find</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.filter">filter</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.append">append</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.last">last</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.eq">eq</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.index">index</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.forEach">forEach</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.parent">parent</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.parents">parents</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.closest">closest</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.addClass">addClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.removeClass">removeClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.hasClass">hasClass</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.attr">attr</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.removeAttr">removeAttr</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.prop">prop</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.val">val</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.remove">remove</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.empty">empty</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.on">on</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.off">off</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="DOM.html#.text">text</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.app.html">bim.app</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.html#.listeners">listeners</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.html#.close">close</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.formData">formData</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.checkAppVersion">checkAppVersion</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.checkAppVersionCallback"
+                >checkAppVersionCallback</a
+              >
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.onGoBack">onGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.scrollTop">scrollTop</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.init">init</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.session">session</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.getAppId">getAppId</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.setAppId">setAppId</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.page">page</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.listener">listener</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.navigation">navigation</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.element">element</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.template">template</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.appendHTML">appendHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.isHTML">isHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.html#.translate">translate</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.data.html">bim.app.data</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.bundle">bundle</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.set">set</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.get">get</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.html#.deleteItem">deleteItem</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.data.db.html">bim.app.data.db</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.data.db.html#.version">version</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addTable">addTable</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.delete">delete</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.create">create</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addItem">addItem</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.addFile">addFile</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.read">read</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.deleteFile">deleteFile</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.data.db.html#.deleteItem">deleteItem</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.user.html">bim.app.user</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.user.html#._uid">_uid</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.user.html#.token">token</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.name">name</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.uid">uid</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.loggedIn">loggedIn</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.register">register</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.user.html#.logout">logout</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.logicless.html">bim.app.logicless</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.app.logicless.html#.htmlTemplate">htmlTemplate</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.app.logicless.html#.lang">lang</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.logicless.html#.tokenizer">tokenizer</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.logicless.html#.compiler">compiler</a>
+            </li>
+          </ul>
+        </li>
+        <li class="level-hide">
+          <a href="bim.app.storyboard.html">bim.app.storyboard</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.containsStack">containsStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.getStack">getStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setStack">setStack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setCurrent">setCurrent</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.current">current</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.next">next</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setPrevious">setPrevious</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.previous">previous</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.moveTo">moveTo</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.setGoBack">setGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.resetGoBack">resetGoBack</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.app.storyboard.html#.goBack">goBack</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.plugin.html">bim.plugin</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.name">name</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.token">token</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.id">id</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.plugin.html#.path">path</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onCreate">onCreate</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onResume">onResume</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.plugin.html#.onDestroy">onDestroy</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.config.html">bim.config</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.config.html#.plugins_installed">plugins_installed</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.native.html">bim.native</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.device">device</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.backButton">backButton</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.keyboard">keyboard</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.handleCallbacks">handleCallbacks</a>
+            </li>
+            <li data-type="member" style="display: none">
+              <a href="bim.native.html#.fileSystem">fileSystem</a>
+            </li>
+          </ul>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.removeHistory">removeHistory</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.internalBrowser">internalBrowser</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.shareUrl">shareUrl</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.loadService">loadService</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.exec">exec</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.cameraChooser">cameraChooser</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.plugin">plugin</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.load">load</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.call">call</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.handleCallback">handleCallback</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.native.html#.callback">callback</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.component.html">bim.component</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.hide">hide</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.show">show</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.active">active</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.set">set</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.component.html#.build">build</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.crawling.html">bim.crawling</a>
+          <ul class="members">
+            <li data-type="member" style="display: none">
+              <a href="bim.crawling.html#.inject">inject</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="bim.functions.html">bim.functions</a>
+          <ul class="methods">
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.isHTML">isHTML</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.parse">parse</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.text">text</a>
+            </li>
+            <li data-type="method" style="display: none">
+              <a href="bim.functions.html#.unique">unique</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="main">
+      <h1 class="page-title">functions</h1>
+
+      <section>
+        <header>
+          <h2>
+            <span class="ancestors"><a href="bim.html">bim</a>.</span>
+
+            Namespace
+          </h2>
+        </header>
+
+        <article>
+          <div class="container-overview">
+            <h4 class="name" id="functions">functions</h4>
+
+            <dl class="details">
+              <dt class="tag-description">Description:</dt>
+              <dd class="tag-description">
+                <ul class="dummy">
+                  <li>
+                    <p>
+                      General static functions which can be called with
+                      <code>bim.functions</code>
+                    </p>
+                  </li>
+                </ul>
+              </dd>
+
+              <dt class="tag-source">Source:</dt>
+              <dd class="tag-source">
+                <ul class="dummy">
+                  <li>
+                    <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                    <a href="bim.sdk.js.html#line5935">line 5935</a>
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+
+            <h5 class="subsection-title">Properties:</h5>
+
+            <table class="props">
+              <thead>
+                <tr>
+                  <th>Name</th>
+
+                  <th>Type</th>
+
+                  <th class="last">Description</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td class="name"><code>isHTML</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to check whether the given string parameter is a
+                      tag of HTML or not. See
+                      <a href="bim.functions.html#.isHTML"
+                        >bim.functions.isHTML</a
+                      >
+                      for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>parse</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to parse to JSON. See
+                      <a href="bim.functions.html#.parse"
+                        >bim.functions.parse</a
+                      >
+                      for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>text</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to randomly generate alphabetical string with
+                      given parameter number. See
+                      <a href="bim.functions.html#.text">bim.functions.text</a>
+                      for more details.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="name"><code>unique</code></td>
+
+                  <td class="type">
+                    <span class="param-type">function</span>
+                  </td>
+
+                  <td class="description last">
+                    <p>
+                      Function to remove duplicated values from an Array. See
+                      <a href="bim.functions.html#.unique"
+                        >bim.functions.unique</a
+                      >
+                      for more details.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="subsection-title">Methods</h3>
+
+          <h4 class="name" id=".isHTML">
+            <span class="type-signature type-signature-static">(static) </span
+            >isHTML<span class="signature">(html)</span
+            ><span class="type-signature"> &rarr; {boolean}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function to check whether the given string parameter is a
+                    valid tag of HTML or not.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line5956">line 5956</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Examples</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>if (bim.functions.isHTML(${1:html})) ..;</code></pre>
+
+          <pre
+            class="prettyprint"
+          ><code>let bimHtml = "&lt;p>Hello Bim~&lt;/p>";
+
+if (bim.functions.isHTML(bimHtml)) {
+ bim.app.element("#bimElement").append(bimHtml);
+}</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>html</code></td>
+
+                <td class="type">
+                  <span class="param-type">string</span>
+                </td>
+
+                <td class="description last">
+                  <p>
+                    <b><i>Required.</i></b> String to verify that it is a valid
+                    HTML tag.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p><code>true</code> | <code>false</code></p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">boolean</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".parse">
+            <span class="type-signature type-signature-static">(static) </span
+            >parse<span class="signature">(j, callback)</span
+            ><span class="type-signature"> &rarr; {*}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function that firstly parses the given parameter to JSON,
+                    secondly calls the callback function and returns the result.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line5988">line 5988</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Example</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.functions.parse(${1:parameter}, ${2:callback})</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>j</code></td>
+
+                <td class="type">
+                  <span class="param-type">*</span>
+                </td>
+
+                <td class="description last">
+                  <p>Object expected to be parsed into JSON</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td class="name"><code>callback</code></td>
+
+                <td class="type">
+                  <span class="param-type">function</span>
+                </td>
+
+                <td class="description last"><p>function</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>callback({boolean}, {parsedObject})</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">*</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".text">
+            <span class="type-signature type-signature-static">(static) </span
+            >text<span class="signature"
+              >(n<span class="signature-attributes">opt</span>)</span
+            ><span class="type-signature"> &rarr; {string}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Randomly generates alphabetical string with given parameter
+                    number
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line6012">line 6012</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-examples">Example</h5>
+
+          <pre
+            class="prettyprint"
+          ><code>bim.functions.text(${1:number})</code></pre>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th>Attributes</th>
+
+                <th>Default</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>n</code></td>
+
+                <td class="type">
+                  <span class="param-type">number</span>
+                </td>
+
+                <td class="attributes">&lt;optional><br /></td>
+
+                <td class="default">
+                  <code>16</code>
+                </td>
+
+                <td class="description last"><p>length of the text</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>randomlly generated text string</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">string</span>
+            </dd>
+          </dl>
+
+          <h4 class="name" id=".unique">
+            <span class="type-signature type-signature-static">(static) </span
+            >unique<span class="signature">(arr)</span
+            ><span class="type-signature"> &rarr; {Array}</span>
+          </h4>
+
+          <dl class="details">
+            <dt class="tag-description">Description:</dt>
+            <dd class="tag-description">
+              <ul class="dummy">
+                <li>
+                  <p>
+                    Function that returns new Array duplicated values removed.
+                  </p>
+                </li>
+              </ul>
+            </dd>
+
+            <dt class="tag-source">Source:</dt>
+            <dd class="tag-source">
+              <ul class="dummy">
+                <li>
+                  <a href="bim.sdk.js.html">bim.sdk.js</a>,
+                  <a href="bim.sdk.js.html#line6037">line 6037</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <h5 class="h5-parameters">Parameters:</h5>
+
+          <table class="params">
+            <thead>
+              <tr>
+                <th>Name</th>
+
+                <th>Type</th>
+
+                <th class="last">Description</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="name"><code>arr</code></td>
+
+                <td class="type">
+                  <span class="param-type">Array</span>
+                </td>
+
+                <td class="description last"><p>Array</p></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h5 class="h5-returns">Returns:</h5>
+
+          <div class="param-desc">
+            <p>New Array duplicated valued removed</p>
+          </div>
+
+          <dl class="param-type">
+            <dt>Type</dt>
+            <dd>
+              <span class="param-type">Array</span>
+            </dd>
+          </dl>
+        </article>
+      </section>
+    </div>
+
+    <br class="clear" />
+
+    <script>
+      prettyPrint();
+    </script>
+    <script src="scripts/polyfill.js"></script>
+    <script src="scripts/linenumber.js"></script>
+
+    <script src="scripts/search.js" defer></script>
+
+    <script src="scripts/collapse.js" defer></script>
+  </body>
+</html>
